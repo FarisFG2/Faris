@@ -13,6 +13,16 @@
         var section = document.getElementById(sectionId);
         section.scrollIntoView({ behavior: 'smooth' });
       }
+      function see(see_more, seee) {
+        if (document.getElementById(see_more).style.display=='none'){
+          document.getElementById(see_more).style.display='block'
+          document.getElementById(seee).innerHTML='See less'
+        }
+        else {
+          document.getElementById(see_more).style.display='none'
+          document.getElementById(seee).innerHTML='See more'
+        }
+      }
     </script>
 </head>
 
@@ -79,7 +89,8 @@
          the Starks of Winterfell<span class="hedden" id="see_more">, a family as harsh and unyielding as the frozen land they were born to. 
          Now Lord Eddard Stark is reluctantly summoned to serve as the king’s new Hand, an appointment that threatens 
          to sunder not only his family but the kingdom itself.</span></p>
-         <button class="see_more" onclick="document.getElementById('see_more').style.display='block'">See more</button>
+         <button class="see_more" id="seee" onclick="see('see_more', 'seee')">See more</button>
+         <!-- <button class="see_more" onclick="document.getElementById('see_more').style.display='block'">See more</button> -->
     </div>
     <div class="GOF1_author">
       <img src="author.jpg" class="img_author" alt="">

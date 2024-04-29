@@ -98,13 +98,13 @@
 .cast {
     list-style-type: none;
 }
-img {
+.cast img {
     height: 300px;
     width: 180px;
     margin: 28px;
     border-radius: 5px;
 }
-h2 {
+.cast h2 {
     color: #fff;
     position: relative;
     text-align: center;
@@ -287,7 +287,7 @@ h2 {
     position: relative;
     margin-bottom: 100px;
 }
-.GOF8_movie .movie_info {
+.GOF8_movie .GOF8_movie_info {
     width: 700px;
     height: 600px;
     margin: 100px 50px ;
@@ -309,7 +309,7 @@ h2 {
     display: inline;
     margin-left: 10px;
 }
-.GOF8_movie .movie_info .synopsis {
+.GOF8_movie .GOF8_movie_info .synopsis8 {
     font-size: 25px;
     margin-top: 50px;
 }
@@ -343,10 +343,10 @@ h2 {
     margin: 250px 50px;
     position: relative;
 }
-.GOF8_book .book_poster {
+.GOF8_book .book8_poster {
     width: 350px;
 }
-.GOF8_book .author_info {
+.GOF8_book .author8_info {
     width: 600px;
     height: 290px;
     position: absolute;
@@ -354,7 +354,7 @@ h2 {
     top: 0;
     text-align: right;
 }
-.GOF8_book .author_info strong {
+.GOF8_book .author8_info strong {
     font-size: 40px;
     border-bottom: 5px solid black;
     position: relative;
@@ -362,11 +362,11 @@ h2 {
     left: 195px;
     color: #eee;
 }
-.GOF8_book .author_info img {
+.GOF8_book .author8_info img {
     position: relative;
     top: 50px;
 }
-.GOF8_book .author_info p {
+.GOF8_book .author8_info p {
     position: relative;
     bottom: 200px;
     width: 400px;
@@ -382,7 +382,7 @@ h2 {
     left: 360px;
     color: #eee;
 }
-.GOF8_book .info {
+.GOF8_book .info8 {
     position: relative;
     font-size: 23px;
     width: 1000px;
